@@ -33,6 +33,16 @@ header .navbar-brand {
 	position: relative;
 	z-index: 20;
 }
+a,
+.nav-icon {
+	text-align: right;
+}
+a.nav-link {
+	text-align: right;
+}
+nav ul {
+	font-size: 17px;
+}
 
 .jumbotron {
 	background: #7608b9 !important;
@@ -66,4 +76,10 @@ footer section {
 }
 hr {
 	background-color: white;
+}
+
+@media only screen and (max-width: 600px) {
+	.nav-icon {
+		margin-left: 0;
+	}
 }
