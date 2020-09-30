@@ -3,16 +3,16 @@
 	padding: 0;
 }
 
+/* -----------------------header-------------------- */
 .navbar-collapse {
 	z-index: 15;
 }
-
-header .spikes {
+.spikes {
 	position: relative;
 	background: #f8f9fa;
 	height: 14vh;
 }
-header .spikes::after {
+.spikes::after {
 	content: "";
 	position: absolute;
 	right: 0;
@@ -29,8 +29,8 @@ header .spikes::after {
 header .navbar-brand {
 	color: #7608b9 !important;
 	font-family: "Pacifico", cursive;
-	font-size: 40px;
-	position: relative;
+	font-size: 30px;
+
 	z-index: 20;
 }
 
@@ -39,13 +39,32 @@ header .navbar-brand {
 }
 
 nav ul {
-	font-size: 17px;
+	font-size: 19px;
 }
 
 .jumbotron {
 	background: #7608b9 !important;
 	color: whitesmoke;
 }
+
+/* ----------------------section--------------------- */
+.img-jumbotron {
+	width: 80%;
+	margin: auto;
+}
+h2 {
+	text-align: center;
+}
+article img {
+	width: 30%;
+	margin: auto;
+}
+article,
+h1,
+p {
+	text-align: center;
+}
+/*                  footer           */
 
 .spikes-white {
 	position: relative;
@@ -66,30 +85,18 @@ nav ul {
 		linear-gradient(225deg, white 25%, transparent 25%);
 	background-position: 0 0;
 }
-.img-jumbotron {
-	width: 80%;
-	margin: auto;
-}
-h2 {
-	text-align: center;
-}
-article img {
-	width: 30%;
-	margin: auto;
-}
-article,
-h1,
-p {
-	text-align: center;
-}
-/*                  footer           */
-
-footer section {
-	background: violet;
-}
 hr {
 	background-color: white;
 }
+footer h2 {
+	color: white;
+	font-family: "Pacifico", cursive;
+	font-size: 50px;
+}
+.redesSociales img {
+	width: 6%;
+}
+/* -------------------celulares ------------- */
 
 @media only screen and (max-width: 600px) {
 	.nav-icon {
