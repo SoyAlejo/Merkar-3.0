@@ -2,17 +2,15 @@
 	margin: 0;
 	padding: 0;
 }
-.spikes {
-	position: relative;
-	background: #f8f9fa;
-	height: 14vh;
-}
+
 .navbar-collapse {
 	z-index: 15;
 }
 
-.nav {
-	z-index: 50;
+.spikes {
+	position: relative;
+	background: #f8f9fa;
+	height: 14vh;
 }
 .spikes::after {
 	content: "";
