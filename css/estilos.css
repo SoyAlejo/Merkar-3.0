@@ -33,13 +33,11 @@ header .navbar-brand {
 	position: relative;
 	z-index: 20;
 }
-a,
+
 .nav-icon {
-	text-align: right;
+	margin-left: 10%;
 }
-a.nav-link {
-	text-align: right;
-}
+
 nav ul {
 	font-size: 17px;
 }
