@@ -181,7 +181,9 @@
 					</article>
 				</div>
 			</section>
-			<section>
+			<hr />
+			<section class="container col-6">
+				<h3>Formulario</h3>
 				<form action="/action_page.php">
 					<div class="form-group">
 						<label for="Nombre">Nombres:</label>
@@ -190,6 +192,7 @@
 							type="text"
 							id="Nombre"
 							placeholder="Nombres"
+							required
 						/>
 					</div>
 					<div class="form-group">
@@ -199,6 +202,7 @@
 							class="form-control"
 							placeholder="Correo"
 							id="email"
+							required
 						/>
 					</div>
 
@@ -209,6 +213,7 @@
 							type="tel"
 							id="Telefono"
 							placeholder="Telefono"
+							required
 						/>
 					</div>
 					<div class="form-group">
@@ -218,31 +223,40 @@
 							type="text"
 							id="Ciudad"
 							placeholder="Ciudad"
+							required
 						/>
 					</div>
-					<div class="custom-control custom-radio custom-control-inline">
-						<input
-							type="radio"
-							class="custom-control-input"
-							id="customRadio"
-							name="Hombre"
-							value="customEx"
-						/>
-						<label class="custom-control-label" for="customRadio">Hombre</label>
-					</div>
-					<div class="custom-control custom-radio custom-control-inline">
-						<input
-							type="radio"
-							class="custom-control-input"
-							id="customRadio2"
-							name="Mujer"
-							value="customEx"
-						/>
-						<label class="custom-control-label" for="customRadio2">Mujer</label>
+					<div>
+						<div class="custom-control custom-radio custom-control-inline">
+							<input
+								type="radio"
+								class="custom-control-input"
+								id="customRadio"
+								name="example"
+								value="customEx"
+								required
+							/>
+							<label class="custom-control-label" for="customRadio"
+								>Mujer</label
+							>
+						</div>
+						<div class="custom-control custom-radio custom-control-inline">
+							<input
+								type="radio"
+								class="custom-control-input"
+								id="customRadio2"
+								name="example"
+								value="customEx"
+								required
+							/>
+							<label class="custom-control-label" for="customRadio2"
+								>Hombre</label
+							>
+						</div>
 					</div>
 					<br />
 
-					<button type="submit" class="btn btn-primary btn-block">
+					<button type="submit" class="btn btn-primary pull-right">
 						Submit
 					</button>
 				</form>

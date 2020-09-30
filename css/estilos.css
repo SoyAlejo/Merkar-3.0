@@ -96,6 +96,9 @@ footer h2 {
 .redesSociales img {
 	width: 6%;
 }
+.btn {
+	text-align: center;
+}
 /* -------------------celulares ------------- */
 
 @media only screen and (max-width: 600px) {
