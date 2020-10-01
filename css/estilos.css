@@ -5,10 +5,6 @@
 body {
 	background: #f8f9fa !important;
 }
-main {
-	width: 1240;
-	margin: 0 auto;
-}
 
 .container {
 	width: 1240 !important;
@@ -17,13 +13,13 @@ main {
 .container-white {
 	background-color: white;
 	border-radius: 0.6rem;
-	padding-bottom: 2rem !important;
+	padding-bottom: 3rem !important;
 	padding-top: 2rem !important;
 	margin-bottom: 1rem !important;
 }
 /* -----------------------header-------------------- */
 .navbar-collapse {
-	z-index: 15;
+	z-index: 3;
 }
 .spikes {
 	position: relative;
@@ -48,29 +44,6 @@ header .navbar-brand {
 	color: #7608b9 !important;
 	font-family: "Pacifico", cursive;
 	font-size: 30px;
-
-	z-index: 20;
-}
-.container-empaquetado img {
-	width: 30% !important;
-}
-.container-empaquetado p,
-svg {
-	font-size: 1.5rem;
-}
-.container-empaquetado svg {
-	background-color: yellowgreen;
-	border-radius: 50%;
-}
-.container-mid {
-	background: #7608b9;
-	padding: 1rem;
-	border-radius: 3%;
-	color: white;
-	margin: 0 auto !important;
-	margin-bottom: 1rem !important;
-	margin-left: 1rem !important;
-	margin-right: 1rem !important;
 }
 
 .nav-icon {
@@ -81,6 +54,7 @@ nav ul {
 	font-size: 19px;
 }
 
+/* ----------------------section--------------------- */
 .jumbotron {
 	background: #7608b9 !important;
 	color: whitesmoke;
@@ -89,8 +63,54 @@ nav ul {
 .img-jumbotron {
 	width: 80%;
 	margin: auto;
-	/* ----------------------section--------------------- */
 }
+
+.section-empaquetado img {
+	width: 30% !important;
+	z-index: 0 !important ;
+}
+.section-empaquetado p,
+svg {
+	font-size: 1.5rem;
+}
+.section-empaquetado svg {
+	background-color: yellowgreen;
+	border-radius: 50%;
+}
+.section-empaquetado .col-6 {
+	margin-bottom: 2rem !important;
+}
+.section-mid {
+	background: #7608b9;
+	padding: 0.8rem;
+	border-radius: 0.6rem;
+	color: white;
+	margin: 0 auto !important;
+	margin-left: 2rem !important;
+	margin-right: 2rem !important;
+}
+.section-need {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+.section-need h6 {
+	color: gray;
+	margin-top: 1rem !important;
+}
+.section-need h6,
+h3 {
+	text-align: center;
+}
+.section-need h3 {
+	padding-bottom: 2rem;
+}
+h6 {
+	color: gray;
+}
+.section-together h2 {
+	padding-bottom: 2rem;
+}
+
 h2 {
 	text-align: center;
 }
@@ -111,7 +131,7 @@ input {
 .spikes-white {
 	position: relative;
 	background: #f8f9fa;
-	height: 1vh;
+	height: 5vh;
 }
 .spikes-white::after {
 	content: "";
@@ -130,32 +150,16 @@ input {
 hr {
 	background-color: white;
 }
-footer h2,
-h1 {
+footer h2 {
 	color: white;
 	font-family: "Pacifico", cursive;
-	font-size: 50px;
+	font-size: 1.9rem;
 }
 .redesSociales img {
 	width: 6%;
 }
 .btn {
 	margin: auto;
-}
-.section-need {
-	padding-top: 1rem;
-	padding-bottom: 1rem;
-}
-.section-need h6 {
-	color: gray;
-	margin-top: 1rem !important;
-}
-.section-need h6,
-h3 {
-	text-align: center;
-}
-h6 {
-	color: gray;
 }
 
 /* -------------------celulares ------------- */
