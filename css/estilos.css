@@ -2,13 +2,20 @@
 	margin: 0;
 	padding: 0;
 }
+body {
+	background: #f8f9fa !important;
+}
 main {
 	width: 1240;
 	margin: 0 auto;
 }
-.container,
-.container-fluid {
-	border: solid red 2px;
+.container {
+	width: 1240 !important;
+	margin: 0 auto !important;
+}
+.container-white {
+	background-color: white;
+	border-radius: 2%;
 }
 /* -----------------------header-------------------- */
 .navbar-collapse {
@@ -39,6 +46,16 @@ header .navbar-brand {
 	font-size: 30px;
 
 	z-index: 20;
+}
+.container-mid {
+	background: #7608b9;
+	padding: 1rem;
+	border-radius: 3%;
+	color: white;
+	margin: 0 auto !important;
+	margin-bottom: 1rem !important;
+	margin-left: 1rem !important;
+	margin-right: 1rem !important;
 }
 
 .nav-icon {
@@ -106,6 +123,19 @@ footer h2 {
 .btn {
 	text-align: center;
 }
+.section-need {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+.section-need h6 {
+	color: gray;
+	margin-top: 1rem !important;
+}
+.section-need h6,
+h3 {
+	text-align: center;
+}
+
 /* -------------------celulares ------------- */
 
 @media only screen and (max-width: 600px) {
