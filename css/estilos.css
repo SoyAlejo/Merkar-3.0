@@ -17,10 +17,14 @@ body {
 	padding-bottom: 3rem !important;
 	padding-top: 2rem !important;
 	margin-bottom: 1rem !important;
+	border: solid gray 1px;
 }
 /* -----------------------header-------------------- */
 .navbar-collapse {
 	z-index: 20;
+}
+nav a {
+	color: black !important;
 }
 .spikes {
 	position: relative;
@@ -44,7 +48,7 @@ body {
 header .navbar-brand {
 	color: #7608b9 !important;
 	font-family: "Pacifico", cursive;
-	font-size: 30px;
+	font-size: 2.5rem;
 }
 
 .nav-icon {
@@ -60,9 +64,11 @@ nav ul {
 	background: #7608b9 !important;
 	color: whitesmoke;
 }
-.jumbotron p,
-h1 {
-	font-size: 1.4rem;
+.jumbotron h1 {
+	font-size: 3rem;
+}
+.jumbotron p {
+	font-size: 1.3rem;
 }
 .section-jumbotron article {
 	margin: auto;
@@ -146,7 +152,6 @@ input {
 }
 /*                  footer           */
 footer a {
-	cursor: default;
 	color: white;
 }
 
@@ -183,7 +188,10 @@ footer h2 {
 .btn {
 	margin: auto;
 }
-
+.section_footer p,
+a {
+	font-size: 1rem;
+}
 /* -------------------celulares ------------- */
 
 @media only screen and (max-width: 600px) {
