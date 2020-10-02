@@ -4,7 +4,7 @@
 	font-family: Arial, Helvetica, sans-serif;
 }
 body {
-	background: #f8f9fa !important;
+	background: whitesmoke !important;
 }
 
 .container {
@@ -17,7 +17,6 @@ body {
 	padding-bottom: 3rem !important;
 	padding-top: 2rem !important;
 	margin-bottom: 1rem !important;
-	border: solid gray 1px;
 }
 /* -----------------------header-------------------- */
 .navbar-collapse {
@@ -80,18 +79,23 @@ nav ul {
 	width: 30% !important;
 	z-index: 0 !important ;
 }
-.section-empaquetado p,
-svg {
+.section-empaquetado p {
 	font-size: 1.5rem;
+}
+.section-empaquetado svg {
+	font-size: 2rem;
 }
 .section-empaquetado article {
 	margin: auto;
 }
 .section-empaquetado svg {
-	background-color: yellowgreen;
 	border-radius: 50%;
 }
-
+.btn-outline-danger {
+	background: #7608b9 !important ;
+	border: #7608b9 solid !important;
+	color: white !important;
+}
 .section-mid {
 	background: #7608b9;
 	padding: 0.8rem;
