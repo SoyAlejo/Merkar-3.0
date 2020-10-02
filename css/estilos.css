@@ -98,6 +98,9 @@ svg {
 .section-mid div {
 	margin: auto;
 }
+.section-mid img {
+	width: 40%;
+}
 .section-need {
 	padding-top: 1rem;
 	padding-bottom: 1rem;
