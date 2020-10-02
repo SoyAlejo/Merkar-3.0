@@ -64,11 +64,11 @@ nav ul {
 h1 {
 	font-size: 1.4rem;
 }
-.section-jumbotron div {
+.section-jumbotron article {
 	margin: auto;
 }
 .section-jumbotron img {
-	width: 80%;
+	width: 90%;
 }
 .section-empaquetado img {
 	width: 30% !important;
@@ -77,6 +77,9 @@ h1 {
 .section-empaquetado p,
 svg {
 	font-size: 1.5rem;
+}
+.section-empaquetado article {
+	margin: auto;
 }
 .section-empaquetado svg {
 	background-color: yellowgreen;
