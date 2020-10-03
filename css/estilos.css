@@ -88,9 +88,10 @@ nav ul {
 .section-empaquetado article {
 	margin: auto;
 }
-.section-empaquetado svg {
-	border-radius: 50%;
+.section-empaquetado img {
+	width: 50%;
 }
+
 .btn-light {
 	background: #7608b9 !important ;
 	border: #7608b9 solid !important;
@@ -235,10 +236,6 @@ footer .jumbotron {
 	}
 }
 @media only screen and (max-width: 977px) {
-	.section-empaquetado img {
-		width: 100% !important;
-		max-width: 999px;
-	}
 	.section-empaquetado p,
 	button {
 		font-size: 0.7rem;
@@ -296,9 +293,12 @@ footer .jumbotron {
 		font-size: 1rem;
 	}
 	.section-together p {
-		font-size: 0.4rem;
+		font-size: 0.6rem;
 	}
 	.section-mid p {
 		font-size: 0.5rem;
+	}
+	.section-need h5 {
+		font-size: 1rem;
 	}
 }
