@@ -73,7 +73,7 @@ nav ul {
 	margin: auto;
 }
 .section-jumbotron img {
-	width: 90%;
+	width: 100%;
 }
 .section-empaquetado img {
 	width: 40% !important;
@@ -200,9 +200,17 @@ footer h2 {
 .btn {
 	margin: auto;
 }
-.section_footer p,
-a {
+footer p {
 	font-size: 1rem;
+}
+
+footer .jumbotron {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+#final {
+	margin-bottom: 0;
+	padding-bottom: 1rem;
 }
 /* -------------------celulares ------------- */
 
@@ -231,11 +239,17 @@ a {
 		width: 70% !important;
 		max-width: 999px;
 	}
-	.section-mid img {
-		width: 60%;
+	.jumbotron h1 {
+		font-size: 1rem;
 	}
-	.section-jumbotron p,
-	h1 {
+	.jumbotron p {
+		font-size: 0.6rem;
+	}
+	.section-mid img {
+		width: 100%;
+	}
+
+	.section-mid p {
 		font-size: 1rem;
 	}
 }
