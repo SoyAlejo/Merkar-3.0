@@ -73,7 +73,7 @@ nav ul {
 	margin: auto;
 }
 .section-jumbotron img {
-	width: 100%;
+	width: 90%;
 }
 .section-empaquetado img {
 	width: 40% !important;
@@ -223,7 +223,7 @@ footer .jumbotron {
 		font-size: 0.1rem;
 	}
 	.section-jumbotron img {
-		width: 100%;
+		width: 100% !;
 	}
 
 	.section-mid div {
@@ -231,13 +231,20 @@ footer .jumbotron {
 	}
 
 	.section-mid p {
-		font-size: 14px;
+		font-size: 0.1rem;
 	}
 }
 @media only screen and (max-width: 977px) {
 	.section-empaquetado img {
-		width: 70% !important;
+		width: 100% !important;
 		max-width: 999px;
+	}
+	.section-empaquetado p,
+	button {
+		font-size: 0.7rem;
+	}
+	.section-empaquetado h6 {
+		font-size: 0.5rem;
 	}
 	.jumbotron h1 {
 		font-size: 1rem;
@@ -256,5 +263,42 @@ footer .jumbotron {
 @media only screen and (max-width: 1011px) {
 	.redesSociales img {
 		width: 10%;
+	}
+}
+@media only screen and (max-width: 514px) {
+	.section-jumbotron h1 {
+		font-size: 0.1;
+	}
+	.section-jumbotron p {
+		font-size: 0.1rem;
+	}
+	.section-mid p {
+		font-size: 0.7rem;
+	}
+	.section-together h5 {
+		font-size: 1.2rem;
+	}
+	.section-together p {
+		font-size: 0.7rem;
+	}
+}
+@media only screen and (max-width: 360px) {
+	.section-jumbotron h1 {
+		font-size: 0.5rem;
+	}
+	.section-jumbotron p {
+		font-size: 0.1rem;
+	}
+	.section-mid img {
+		width: 100%;
+	}
+	.section-together h5 {
+		font-size: 1rem;
+	}
+	.section-together p {
+		font-size: 0.4rem;
+	}
+	.section-mid p {
+		font-size: 0.5rem;
 	}
 }
