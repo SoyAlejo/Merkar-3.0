@@ -213,6 +213,10 @@ footer .jumbotron {
 	margin-bottom: 0;
 	padding-bottom: 1rem;
 }
+
+footer img svg {
+	color: blanchedalmond;
+}
 /* -------------------celulares ------------- */
 
 @media only screen and (max-width: 600px) {
